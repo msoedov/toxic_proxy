@@ -1,5 +1,5 @@
 # Toxic proxy
-An asyncio tcp proxy for network resiliency testing
+An asyncio tcp proxy for network resilience testing
 
 
 ```shell
