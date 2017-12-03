@@ -4,6 +4,7 @@ import asyncio
 
 trottling = defaultdict(int)
 
+
 async def lattency(**opts):
     _latency = opts.get("latency")
     await asyncio.sleep(_latency or 0)
