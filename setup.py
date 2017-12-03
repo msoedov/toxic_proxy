@@ -13,7 +13,7 @@ setup(
     license="MIT",
     author="Alex Myasoedov (Miasoiedov)",
     author_email="msoedov+github@gmail.com",
-    packages=['.'],
+    packages=[],
     install_requires=[],
     long_description=long_description,
     classifiers=[

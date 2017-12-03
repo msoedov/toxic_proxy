@@ -1,5 +1,5 @@
 import asyncio
-from app import toxic_proxy
+from toxic_proxy import toxic_proxy
 
 proxy = toxic_proxy(
     destination=('google.com', 80), bandwidth_rate_kb=0.5, port=8888)

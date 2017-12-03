@@ -1,5 +1,5 @@
 import socket
-import sideeffects
+import toxic_proxy.sideeffects as sideeffects
 import asyncio
 
 chunk_size = 2048
