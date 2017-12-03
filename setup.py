@@ -8,12 +8,12 @@ except IOError:
 
 setup(
     name="toxic_proxy",
-    version="0.0.1",
+    version="0.0.3",
     description="An asyncio tcp proxy for network resiliency testing",
     license="MIT",
     author="Alex Myasoedov (Miasoiedov)",
     author_email="msoedov+github@gmail.com",
-    packages=[],
+    packages=['toxic_proxy'],
     install_requires=[],
     long_description=long_description,
     classifiers=[
