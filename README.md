@@ -1,14 +1,15 @@
 # Toxic proxy
+
 An asyncio tcp proxy for network resilience testing
 
 
 ```shell
 pip install --upgrade  toxic_proxy
 ```
+
 ## Example
 
 ```python
-
 import asyncio
 
 from aiocassandra import aiosession
@@ -47,6 +48,7 @@ loop.close()
 ```
 
 Run the app and entry
+
 ```shell
 curl -v 0.0.0.0:8888
 ```
