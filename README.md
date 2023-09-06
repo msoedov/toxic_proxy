@@ -2,7 +2,6 @@
 
 An asyncio tcp proxy for network resilience testing
 
-
 ```shell
 pip install --upgrade  toxic_proxy
 ```
