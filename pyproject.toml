@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "toxic-proxy"
+version = "0.1.0"
+description = "An asyncio tcp proxy for network resilience testing"
+authors = [
+    "Alex Myasoedov <msoedov+github@gmail.com>",
+    "Martijn Bakker <martijn.bakker@twtg.io>"
+]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+toxic-proxy = "toxic_proxy:toxic_proxy"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
